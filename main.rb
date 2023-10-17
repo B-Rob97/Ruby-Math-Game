@@ -36,7 +36,7 @@ while player1.number_of_lives > 0 && player2.number_of_lives > 0
   puts "#{player1.name}: #{player1.number_of_lives}/3 vs #{player2.name}: #{player2.number_of_lives}/3"
 
   if player1.number_of_lives == 0 || player2.number_of_lives == 0
-    puts "----- GAME OVER -----"
+    puts "❗❗❗❗❗GAME OVER❗❗❗❗❗"
     winner = player1.number_of_lives > 0 ? player1.name : player2.name
     puts "#{winner} wins with #{player1.number_of_lives > 0 ? player1.number_of_lives : player2.number_of_lives} lives left!"
     puts "Adios amigos!"
